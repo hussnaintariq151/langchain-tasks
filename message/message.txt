@@ -1,0 +1,9 @@
+
+
+SystemMessage → tells the model how to behave
+
+HumanMessage → user’s input.
+
+AIMessage → what the AI “already said” (conversation memory).
+
+

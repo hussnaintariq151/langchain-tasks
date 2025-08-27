@@ -1,0 +1,65 @@
+
+
+
+==============================================================================================================
+                                            JSON SCHEMA
+==============================================================================================================
+
+A JSON SCHEMA Is itself an object
+
+{
+  "title": "",
+  "type": "object",
+  "properties": {
+    "field1": { "type": "string" },
+    "field2": { "type": "number" },
+    "field3": { "type": "       "}
+  },
+  "required": ["field1"]
+}
+
+
+title: A human readbale name for SCHEMA
+type: To define the data type   (EXPECTED DATA type)
+     Common types------> "string", "number", "integer", "boolean", "object", "array"
+
+properties: Defines the fields of an object and their schemas 
+
+       Field 1 (summary) -------> type & description
+       Field 1 (sentiment) -------> type , enum & description
+
+required ----------> fields
+
+
+
+==============================================================================================================
+                                            TYPEDICT
+==============================================================================================================
+
+
+Annotated[...] → To add metadata (descriptions) for each field.
+Literal[...] -> → restricts values to a fixed set
+
+
+==============================================================================================================
+                                            PYDANTIC
+==============================================================================================================
+
+Field(description=    )  → To add metadata for field
+Literal[...] -> → restricts values to a fixed set
+
+Field_data_type
+           Optional[str] → optional, can be a string or None
+           list[str] → must be a list of strings. 
+
+
+SYNTAX: Field_name:Field_data_type = Fields(default= ,  description="  ") 
+
+
+
+
+                               TYPEDICT                 JSON SCHEMA                   PYDANTIC
+
+To ADD METADATA               Annotated[]               descriptions          Field(description=    )   
+TO restrict values             Literal[]                 enum                         Literal
+

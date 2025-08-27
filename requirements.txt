@@ -1,0 +1,30 @@
+langchain
+langchain-core
+
+# OpenAi generative models
+langchain-openai
+openai
+
+
+# Google generative models
+langchain-google-genai
+google-generativeai
+
+
+# Hugging face
+langchain-huggingface
+transformers
+huggingface-hub
+
+# environment mangement
+python-dotenv
+
+
+numpy 
+scikit-learn
+
+grandalf
+
+langchain_community
+langchain_experimental
+pypdf

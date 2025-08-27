@@ -1,0 +1,31 @@
+What is an LLM (Large Language Model)?
+
+What is the difference between LLMs and traditional ML models?
+
+How do LLMs learn language patterns during training?
+
+What is the Transformer architecture, and why is it crucial for LLMs?
+
+What are embeddings, and how do LLMs use them?
+
+What is the difference between pre-training and fine-tuning?
+
+What are parameters in LLMs, and why do models like GPT-4 or Gemini have billions of them?
+
+What is the difference between chat models and embedding model?
+
+What is LangChain, and why do we use it instead of directly calling APIs?
+
+What are models in LangChain (LLM, ChatModel, EmbeddingModel)?
+
+What is the primary purpose of a chat model?
+
+What is the primary purpose of an embedding model?
+
+How is the input/output format of a chat model different from an embedding model?
+
+Why can’t embeddings directly answer a question like a chat model does?
+
+In which scenario would you use embeddings instead of a chat model?
+
+How would you explain the difference between chat and embedding models to a non-technical person?

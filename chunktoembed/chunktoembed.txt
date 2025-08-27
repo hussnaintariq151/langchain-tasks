@@ -1,0 +1,5 @@
+
+
+text splitter ------> chunking ------> Token Analysis ------> Embedding validation  ---------> Metadata Extraction ----
+              
+              ---> Parallel Processing -------> Cost & Efficiency ---------> Post-Embedding Analysis  
